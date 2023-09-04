@@ -1,7 +1,7 @@
 import Header from '@/components/page/Header'
 import React from 'react'
 
-import Setember from '@images/bcbfocus/setember-2023.png'
+import Setember from '@images/bcbfocus/2023/setember.png'
 import Image from 'next/image'
 
 const page = () => {
