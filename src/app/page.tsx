@@ -16,9 +16,16 @@ export default function Home() {
     <>
       <Header />
       <main className='flex flex-col items-center'>
-        <Link href={'./resultado'}>
-          <button className='border-2 border-gray-400 px-5 py-2' onclick>IPC</button>
-        </Link>
+        <div>
+          <Link href={'./ipc'}>
+            <button className='border-2 border-gray-400 px-5 py-2 mr-5'>IPC</button>
+          </Link>
+          
+          <Link href={'./bcbfocus'}>
+            <button className='border-2 border-gray-400 px-5 py-2'>BCB Focus</button>
+          </Link>
+
+        </div>
         {calendar.map((item) => (
           <div key={item.id} className='w-1/3 border-2 border-black p-5 my-2'>
             <h2>{item.title}</h2>
